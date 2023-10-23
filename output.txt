@@ -1,0 +1,11 @@
+my-photo.html
+/photo/my-photo.html
+layout/comments.html
+./
+../profile.html
+../profile/myProfile.html
+http://www.site.com
+//www.site.com/index.html
+my-photo.html
+http://www.site.com/best
+mailto:e-mail
