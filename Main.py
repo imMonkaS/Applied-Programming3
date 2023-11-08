@@ -38,7 +38,7 @@ def find_links(text: str):
 
 
 def main():
-    validate_link_pattern = r"(https|http|ftp)://([a-zA-Z0-9-]{0,63}?\.?[a-zA-Z0-9-]{2,63}\.[a-zA-Z0-9]{2,63})(/?[a-zA-Zа-яА-Я0-9$_.+! *'\(\),-]{0,2048})"
+    validate_link_pattern = r"(https|http|ftp)://([a-zA-Z0-9-]{0,63}?\.?[a-zA-Z0-9-]{0,63}?\.?[a-zA-Z0-9-]{2,63}\.[a-zA-Z0-9]{2,63})(/?[a-zA-Zа-яА-Я0-9$_.+! *'\(\),-]{0,2048})"
     find_local_links_pattern = r"([a-zA-Zа-яА-Я0-9$_.+! *'\(\),/-]{1,2048})"
 
     filename = read_correct_filename_from_console()
